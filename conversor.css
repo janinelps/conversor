@@ -1,0 +1,66 @@
+:root{
+  --branco: rgb(246, 246, 246);
+  --verde-claro: rgb(89, 207, 178);
+  --marron-escuro: #332a2a;
+  --vermelho: #e94d4d ;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-color: var(--marron-escuro);
+  background-size: 100vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+header{
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+}
+
+.container {
+  text-align: center;
+}
+
+.page-title {
+  color: var(--branco);
+}
+
+.page-subtitle {
+  color: var(--branco);
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+label {
+  color: var(--branco);
+}
+
+.enviar {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: var(--verde-claro);
+}
+
+.enviar:hover{
+  background: var(--vermelho);
+  transform: scale(1.1);
+}
+
+h2 {
+  color: var(--branco);
+  font-size: 30px;
+}

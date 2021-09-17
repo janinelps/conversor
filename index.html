@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BT">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="conversor.css">
+  <script src="conversor.js"></script>
+  <title>Imersao Alura</title>
+</head>
+
+<header class="container">
+  <h1 class="page-title">
+    Conversor
+  </h1>
+ 
+</header>
+
+<body>
+  <div class="container">
+
+    <label for="moeda">Insira o valor em Dolar</label><br>
+    <input type="number" id="valor" size="2" /><br>
+    <button type="submit" onclick="Converter(5)" class="enviar">Converter para Real</button>
+    <button type:"submit" onclick="Converter(6.5)" class="enviar">Converter para Euro</button>
+    <button type:"submit" onclick="Converter(4750)" class="enviar">Converter para BitCoint</button><br><br>
+
+    <label for="kilometros">Insira a distancia em kilometros</label><br>
+    <input type="number" id="valorKm" size="2" /><br>
+    <button type="submit" onclick="anosLuz(0.00000000000010570)" class="enviar">Converter Km em Anos Luz</button><br><br>
+
+    <label for="tempetur">Isira o valor da Temperatura em Grau Celsius</label><br>
+    <input type="number" id="valorTemperatura" size="2" /><br>
+    <button type="submit" onclick="TemperaturaFahrenheit()" class="enviar">Converter em Fahrenheit</button>
+    <button type="submit" onclick="Temperatura(273)" class="enviar">Converter em Kelvin (K)</button>
+    <h2 id="valorConvertido"></h2>
+  </div>
+
+</body>
+</html>
